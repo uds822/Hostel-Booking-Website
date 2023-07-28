@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostel Booking</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>   
+
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+      <!-- ... your existing HTML code ... -->
+<div class="hero">
+    <div class="mobile-nav-toggle">&#9776;</div>
+    <div class="slider-controls">
+      <span class="scroll-to-top">&#9650;</span>
+    </div>
+    <div class="container">
+      <div id="box1"> <h2>Find the Perfect Hostel</h2></div>
+      <p>Book your stay at the best hostels around the world!</p>
+      <a href="#features" class="cta-btn">Discover More</a>
+    </div>
+  </div>
+  
+  <!-- ... your existing HTML code ... -->
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum justo at enim dictum tempor.
+                Nulla facilisi. Sed hendrerit aliquet tellus, ut ullamcorper turpis aliquet nec. Sed vitae facilisis
+                libero.</p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <div class="container">
+            <h3>Our Features</h3>
+            <div class="feature-item">
+                <img src="/images/main-qimg-e102df9cc2ab39fa93c8474e375f51c3-lq.jpg" alt="Feature 1">
+                <h4>Easy Booking</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="feature-item">
+                <img src="/images/main-qimg-c4513a27b5c7f49bd987b1b02f367d9a-pjlq.jpg" alt="Feature 2">
+                <h4>Best Price Guarantee</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="feature-item">
+                <img src="/images/main-qimg-9f1533df660dd135959fd426e7d476ee-lq.jpg"height="130" alt="Feature 3">
+                <h4>24/7 Customer Support</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </section>
+    <!-- ... your existing HTML code ... -->
+
+
+<!-- Hostels Section -->
+<section id="hostels">
+    <div class="container">
+      <h3>Hostels</h3>
+      <div class="hostel-list">
+        <div class="hostel-item" data-hostel="hostel1">
+          <img src="hostel1.jpg" alt="Hostel 1">
+          <h4>Hostel 1</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="price">$30/night</p>
+        </div>
+        <div class="hostel-item" data-hostel="hostel2">
+          <img src="hostel2.jpg" alt="Hostel 2">
+          <h4>Hostel 2</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="price">$25/night</p>
+        </div>
+        <div class="hostel-item" data-hostel="hostel3">
+          <img src="hostel3.jpg" alt="Hostel 3">
+          <h4>Hostel 3</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p class="price">$40/night</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Comparison Section -->
+  <section id="comparison">
+    <div class="container">
+      <h3>Comparison</h3>
+      <div id="comparison-results"></div>
+    </div>
+  </section>
+  
+  <!-- ... your existing HTML code ... -->
+  
+<!-- Booking Section -->
+<section id="booking">
+    <div class="container">
+      <h3>Book Now</h3>
+      <form id="booking-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="phone" placeholder="Your Phone Number" required>
+        <input type="date" name="check-in" required>
+        <input type="date" name="check-out" required>
+        <button type="submit" id="submit-btn" disabled>Book Now</button>
+      </form>
+    </div>
+  </section>
+  
+  <!-- ... your existing HTML code ... -->
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h3>Contact Us</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum justo at enim dictum tempor.
+                Nulla facilisi.</p>
+            <form action="submit_form.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Hostel Booking. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

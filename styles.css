@@ -1,0 +1,342 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #efecec;
+}
+
+/* Header */
+
+#box1{
+  background-color: #32CD32;
+  margin-left: 30%;
+  /* margin-right: 100px; */
+  width: 489px;
+  border-radius: 2PX;
+
+}
+/* Hero Section */
+.hero {
+    background-image: url('/images/2112.w015.n001.669B.p15.669.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 200px 0;
+    color: #0b0b0b;
+}    
+
+.hero h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #421805;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #c34c10;
+}
+/* ... your existing CSS code ... */
+
+/* Mobile Navigation */
+.mobile-nav-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    header ul {
+      display: none;
+    }
+  
+    header ul.show {
+      display: block;
+    }
+  
+    .mobile-nav-toggle {
+      display: block;
+    }
+  }
+  
+  /* Scroll-to-Top Button */
+  .scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 24px;
+    background-color: #ff5e14;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .scroll-to-top.show {
+    display: block;
+  }
+  
+  /* ... your existing CSS code ... */ 
+
+
+/* About Section */
+#about {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Features Section */
+#features {
+    background-color: #cb8850;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#features h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.feature-item {
+    display: inline-block;
+    width: 30%;
+    margin: 0 2%;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feature-item img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+.feature-item h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/* ... your existing CSS code ... */
+/* ... your existing CSS code ... */
+
+/* Hostels Section */
+#hostels {
+    background-color: #f1f1f1;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #hostels h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hostel-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .hostel-item {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hostel-item img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .hostel-item h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .hostel-item p {
+    margin-bottom: 10px;
+  }
+  
+  .hostel-item .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff5e14;
+  }
+  
+  /* ... your existing CSS code ... */
+  /* ... your existing CSS code ... */
+
+/* Comparison Section */
+#comparison {
+    background-color: #d94545;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #comparison h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #comparison-results {
+    margin-top: 20px;
+  }
+  
+  #comparison-results h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #comparison-results p {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  #comparison-results .better-price {
+    color: #32CD32; /* Green color for better price */
+  }
+  
+  /* ... your existing CSS code ... */
+  
+  
+/* Booking Section */
+#booking {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #booking h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #booking-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #booking input,
+  #booking button {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  #booking button {
+    background-color: #ff5e14;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #booking button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* ... your existing CSS code ... */
+  
+  
+
+/* Contact Section */
+#contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contact h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact input,
+#contact textarea,
+#contact button {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#contact button {
+    background-color: #ff5e14;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact button:hover {
+    background-color: #ff7e3e;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer p {
+    font-size: 14px;
+}
+
